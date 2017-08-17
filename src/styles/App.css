@@ -1,0 +1,36 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+}
+
+/* 舞台结构 */
+.stage {
+  position: relative;
+  width: 100%;
+  height: 680px;
+}
+
+/*图片结构*/
+.img-sec {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+/*控制器结构*/
+.controller-nav {
+  position: absolute;;
+  left:0;
+  bottom:30px;
+  z-index:101;
+  width: 100%;
+  text-align: center;
+}
